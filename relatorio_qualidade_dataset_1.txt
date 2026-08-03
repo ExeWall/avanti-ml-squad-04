@@ -1,0 +1,56 @@
+Iniciando varredura e processamento das pastas...
+
+=== 0. INTEGRIDADE DOS AGRUPAMENTOS ===
+Total de exames únicos encontrados: 263
+Exames com os 4 arquivos completos: 261
+Exames com divergência (incompletos/extras): 2
+
+=== 1. INTEGRIDADE DOS ARQUIVOS ===
+Imagens nos JSONs, mas ausentes nas pastas: 0
+Imagens .jpg nas pastas, mas sem JSON correspondente: 0
+
+=== 2. CONSISTÊNCIA FÍSICA (Metadados vs Imagem) ===
+Imagens cujas dimensões reais divergem do JSON: 0
+
+=== 3. QUALIDADE DAS IMAGENS ===
+Total de imagens corrompidas: 0
+
+=== 4. DISTRIBUIÇÃO DAS CLASSES ===
+
+Arquivos com problemas nos metadados não são contabilizados
+Classe do Tumor (Pasta)  Quantidade de Exames
+         Germinoma T1C+                    99
+           Germinoma T1                    82
+           Germinoma T2                    80
+
+=== 5. VERIFICAÇÃO DE DUPLICATAS ===
+JSONs com conteúdos exatamente iguais: 0
+Imagens de tumor (.jpg) exatamente duplicadas: 28
+ - A imagem 'T1 - Bifocal germinoma pineal 008.jpg' foi copiada 1 vezes e chamada de: 'T1 - Bifocal germinoma pineal 012.jpg'
+ - A imagem 'T1 - Bifocal germinoma suprasellar , ventricle 003.jpg' foi copiada 1 vezes e chamada de: 'T1 - Bifocal germinoma suprasellar , ventricle 008.jpg'
+ - A imagem 'T1 - Bifocal germinoma suprasellar , ventricle 002.jpg' foi copiada 1 vezes e chamada de: 'T1 - Bifocal germinoma suprasellar , ventricle 009.jpg'
+ - A imagem 'T1 - Bifocal germinoma suprasellar , ventricle 001.jpg' foi copiada 1 vezes e chamada de: 'T1 - Bifocal germinoma suprasellar , ventricle 010.jpg'
+ - A imagem 'T1 - Intracranial multifocal germinoma 004.jpg' foi copiada 1 vezes e chamada de: 'T1 - Intracranial multifocal germinoma 005.jpg'
+ - A imagem 'T1 - Intracranial multifocal germinoma 003.jpg' foi copiada 2 vezes e chamada de: 'T1 - Intracranial multifocal germinoma 007.jpg', 'T1 - Intracranial multifocal germinoma 008.jpg'
+ - A imagem 'T1 - Intracranial multifocal germinoma 002.jpg' foi copiada 1 vezes e chamada de: 'T1 - Intracranial multifocal germinoma 009.jpg'
+ - A imagem 'T1 - Parinaud syndrome - pineal germinoma pineal 002.jpg' foi copiada 1 vezes e chamada de: 'T1 - Parinaud syndrome - pineal germinoma pineal 003.jpg'
+ - A imagem 'T1 - Parinaud syndrome - pineal germinoma pineal 004.jpg' foi copiada 1 vezes e chamada de: 'T1 - Parinaud syndrome - pineal germinoma pineal 005.jpg'
+ - A imagem 'T1 - Periventricular CNS germinoma ventricle 003.jpg' foi copiada 1 vezes e chamada de: 'T1 - Periventricular CNS germinoma ventricle 004.jpg'
+ - A imagem 'T1 - Pineal germinoma pineal 015.jpg' foi copiada 1 vezes e chamada de: 'T1 - Pineal germinoma pineal 016.jpg'
+ - A imagem 'T1 - Pineal germinoma with diffuse subependymal tumor spread pineal , frontal 001.jpg' foi copiada 1 vezes e chamada de: 'T1 - Pineal germinoma with diffuse subependymal tumor spread pineal , frontal 002.jpg'
+ - A imagem 'T1C+ - Pineal germinoma pineal 024.jpg' foi copiada 1 vezes e chamada de: 'T1C+ - Pineal germinoma pineal 025.jpg'
+ - A imagem 'T1C+ - Pineal germinoma pineal 026.jpg' foi copiada 1 vezes e chamada de: 'T1C+ - Pineal germinoma pineal 027.jpg'
+ - A imagem 'T1C+ - Pineal germinoma with diffuse subependymal tumor spread pineal , frontal 001.jpg' foi copiada 1 vezes e chamada de: 'T1C+ - Pineal germinoma with diffuse subependymal tumor spread pineal , frontal 002.jpg'
+ - A imagem 'T2 - Intracranial multifocal germinoma 004.jpg' foi copiada 1 vezes e chamada de: 'T2 - Intracranial multifocal germinoma 005.jpg'
+ - A imagem 'T2 - Pineal germinoma pineal 012.jpg' foi copiada 1 vezes e chamada de: 'T2 - Pineal germinoma pineal 018.jpg'
+ - A imagem 'T2 - Pineal germinoma pineal 013.jpg' foi copiada 1 vezes e chamada de: 'T2 - Pineal germinoma pineal 019.jpg'
+ - A imagem 'T2 - Pineal germinoma pineal 014.jpg' foi copiada 2 vezes e chamada de: 'T2 - Pineal germinoma pineal 020.jpg', 'T2 - Pineal germinoma pineal 021.jpg'
+ - A imagem 'T2 - Pineal germinoma pineal 015.jpg' foi copiada 1 vezes e chamada de: 'T2 - Pineal germinoma pineal 022.jpg'
+ - A imagem 'T2 - Pineal germinoma pineal 016.jpg' foi copiada 2 vezes e chamada de: 'T2 - Pineal germinoma pineal 023.jpg', 'T2 - Pineal germinoma pineal 024.jpg'
+ - A imagem 'T2 - Pineal germinoma pineal 017.jpg' foi copiada 1 vezes e chamada de: 'T2 - Pineal germinoma pineal 025.jpg'
+ - A imagem 'T2 - Pineal germinoma pineal 027.jpg' foi copiada 1 vezes e chamada de: 'T2 - Pineal germinoma pineal 028.jpg'
+ - A imagem 'T2 - Pineal germinoma pineal 029.jpg' foi copiada 1 vezes e chamada de: 'T2 - Pineal germinoma pineal 030.jpg'
+ - A imagem 'T2 - Pineal germinoma with diffuse subependymal tumor spread pineal , frontal 001.jpg' foi copiada 1 vezes e chamada de: 'T2 - Pineal germinoma with diffuse subependymal tumor spread pineal , frontal 002.jpg'
+
+===========================================
+Análise concluída.

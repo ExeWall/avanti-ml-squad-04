@@ -1,0 +1,43 @@
+Iniciando varredura e processamento das pastas...
+
+=== 0. INTEGRIDADE DOS AGRUPAMENTOS ===
+Total de exames únicos encontrados: 1199
+Exames com os 4 arquivos completos: 1195
+Exames com divergência (incompletos/extras): 4
+
+=== 1. INTEGRIDADE DOS ARQUIVOS ===
+Imagens nos JSONs, mas ausentes nas pastas: 2
+Imagens .jpg nas pastas, mas sem JSON correspondente: 2
+
+=== 2. CONSISTÊNCIA FÍSICA (Metadados vs Imagem) ===
+Imagens cujas dimensões reais divergem do JSON: 0
+
+=== 3. QUALIDADE DAS IMAGENS ===
+Total de imagens corrompidas: 0
+
+=== 4. DISTRIBUIÇÃO DAS CLASSES ===
+
+Arquivos com problemas nos metadados não são contabilizados
+Classe do Tumor (Pasta)  Quantidade de Exames
+              Normal T2                   457
+              Normal T1                   440
+            Normal T1C+                   300
+
+=== 5. VERIFICAÇÃO DE DUPLICATAS ===
+JSONs com conteúdos exatamente iguais: 0
+Imagens de tumor (.jpg) exatamente duplicadas: 12
+ - A imagem 'T1 - Normal brain MRI (TLE protocol) temporal 128.jpg' foi copiada 1 vezes e chamada de: 'T1 - Normal brain MRI (TLE protocol) temporal 129.jpg'
+ - A imagem 'T1 - Normal brain MRI (TLE protocol) temporal 130.jpg' foi copiada 1 vezes e chamada de: 'T1 - Normal brain MRI (TLE protocol) temporal 131.jpg'
+ - A imagem 'T1 - Normal brain MRI with post-contrast FLAIR 107.jpg' foi copiada 1 vezes e chamada de: 'T1 - Normal brain MRI with post-contrast FLAIR 108.jpg'
+ - A imagem 'T1 - Normal MRI brain brainstem 074.jpg' foi copiada 1 vezes e chamada de: 'T1 - Normal MRI brain brainstem 075.jpg'
+ - A imagem 'T1C+ - Normal brain MRI with post-contrast FLAIR 079.jpg' foi copiada 1 vezes e chamada de: 'T1C+ - Normal brain MRI with post-contrast FLAIR 080.jpg'
+ - A imagem 'T1C+ - Normal MRI brain including MR venogram pituitary fossa 029.jpg' foi copiada 1 vezes e chamada de: 'T1C+ - Normal MRI brain including MR venogram pituitary fossa 030.jpg'
+ - A imagem 'T2 - Normal brain MRI (non-focal epilepsy protocol) 114.jpg' foi copiada 1 vezes e chamada de: 'T2 - Normal brain MRI (non-focal epilepsy protocol) 115.jpg'
+ - A imagem 'T2 - Normal brain MRI 167.jpg' foi copiada 1 vezes e chamada de: 'T2 - Normal brain MRI 168.jpg'
+ - A imagem 'T2 - Normal brain MRI and venogram 017.jpg' foi copiada 1 vezes e chamada de: 'T2 - Normal brain MRI and venogram 018.jpg'
+ - A imagem 'T2 - Normal MRI brain - neurodegenerative protocol temporal 062.jpg' foi copiada 1 vezes e chamada de: 'T2 - Normal MRI brain - neurodegenerative protocol temporal 063.jpg'
+ - A imagem 'T2 - Normal MRI brain brainstem 081.jpg' foi copiada 1 vezes e chamada de: 'T2 - Normal MRI brain brainstem 082.jpg'
+ - A imagem 'T2 - Normal MRI of the brain (adult) 001.jpg' foi copiada 1 vezes e chamada de: 'T2 - Normal MRI of the brain (adult) 002.jpg'
+
+===========================================
+Análise concluída.
