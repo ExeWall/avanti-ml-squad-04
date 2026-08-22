@@ -30,12 +30,7 @@ Projeto de Segmentação de Tumor Cerebral — Bootcamp Básico em Machine Learn
 
 ### Equipe — Squad 04
 
-- Alceu Teixeira Guilhen
 - Alexia Nicoly de Moura Furtado
-- Aline Sousa Lima
-- Ana Karolyne de Souza Bessa
-- Caren Teva das Neves
-- Érika Santa Catarina
 - Felipe Luiz da Silva Dias
 - Igor Santana Sampaio
 - Wallyson Rodrigues da Silva
