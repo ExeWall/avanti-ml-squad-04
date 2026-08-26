@@ -1,6 +1,6 @@
 # avanti-ml-squad-04
 
-Projeto de Segmentação de Tumor Cerebral — Bootcamp Básico em Machine Learning (Atlântico Avanti).
+Projeto de Segmentação de Tumor Cerebral — Bootcamp em Machine Learning (Atlântico Avanti).
 
 ## Projeto 04 — Segmentação de Tumor Cerebral (Germ Cell Tumor)
 
